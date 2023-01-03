@@ -1,0 +1,35 @@
+<main>
+   <div class="pri-sessao container">
+     <h2>Como você se sentiu hoje?</h2>
+      <div class="sensa">
+        <ul class="botoes">
+          <li><button class="botao-verde em-botao" id="verde" value="verde" (click)="selecionarBotao(value)"><img src="../../../assets/verde-icon.svg"></button></li>
+          <li><button class="botao-branco em-botao" id="branco" value="branco" (click)="selecionarBotao(value)"><img src="../../../assets/branco-icon.svg"></button></li>
+          <li><button class="botao-amarelo em-botao" id="amarelo" value="amarelo" (click)="selecionarBotao(value)"><img src="../../../assets/amarelo-icon.svg"></button></li>
+          <li><button class="botao-azul em-botao" id="azul" (click)="selecionarBotao(value)"> <img src="../../../assets/azul-icon.svg" alt=""></button></li>
+          <li><button class="botao-vermelho em-botao" id="vermelho" value="vermelho" (click)="selecionarBotao(value)"><img src="../../../assets/vermelho-icon.svg" alt=""></button></li>
+          <li><button class="botao-laranja em-botao" id="laranja"  value="laranja" (click)="selecionarBotao(value)"><img src="../../../assets/laranja-icon.svg" alt=""></button></li>
+          <li><button class="botao-preto em-botao" id="preto" value="preto" (click)="selecionarBotao(value)"><img src="../../../assets/preto-icon.svg" alt=""></button></li>
+        </ul>
+      </div>
+   </div>
+    <div class="area">
+      <h2>Sabe dizer por que se sentiu assim?</h2>
+      <input type="text" id="motivo" name="motivo" placeholder="  Eu me senti assim devido a...">
+    </div>
+    <div class="salvar-cancelar">
+      <button class="salvar">Salvar</button>
+      <button class="cancelar">Cancelar</button>
+    </div>
+</main>
+<article>
+      <ul>
+        <li><img src="../../../assets/verde-icon.svg" alt="" class="icon"><p class="indice">É a cor da calma, serenidade e bem-estar</p></li>
+        <li><img src="../../../assets/branco-icon.svg" alt="" class="icon"><p class="indice">É a cor da pureza e da paz</p></li>
+        <li><img src="../../../assets/amarelo-icon.svg" alt="" class="icon"><p class="indice">É a cor da alegria e todas emoções derivadas delas</p></li>
+        <li><img src="../../../assets/azul-icon.svg" alt="" class="icon"><p class="indice">É a cor das emoções derivadas das tristeza</p></li>
+        <li><img src="../../../assets/vermelho-icon.svg" alt="" class="icon"><p class="indice">É a cor das emoções derivadas da Ira e Raiva</p></li>
+        <li><img src="../../../assets/laranja-icon.svg" alt="" class="icon"><p class="indice">É a cor da emotividade</p></li>
+        <li><img src="../../../assets/preto-icon.svg" alt="" class="icon"><p class="indice">É a cor do medo e do sofrimento</p></li>
+        </ul>
+</article>
